@@ -4,6 +4,10 @@
 Generate hotel names
 
 Heavily inspired by https://github.com/treyhunner/names
+## Installation
+
+    pip install hotel-names
+
 ## Usage
 
 When installed, you can use it from command line:
