@@ -21,11 +21,9 @@ setup(
     )),
     license=hotel_names.__license__,
     packages=find_packages(),
-    #package_data={'names': ['dist.*']},
-    #include_package_data=True,
     entry_points={
         'console_scripts': [
-            'names = hotel_names.hotel_names:main',
+            'hotel_names = hotel_names.hotel_names:main',
         ],
     },
     classifiers=[
