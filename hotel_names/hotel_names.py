@@ -1,9 +1,9 @@
 from random import choice
 
 
-adjectives = ["Beautiful", "Fancy", "Happy", "Imperial", "Quiet", "Rosy", "Spring", "Sunny"]
-nouns = ["Beach", "Downs", "Gardens", "Hills", "Lake", "Mountains"]
-suffixes = ["Spa", "Hotel", "Resorts"]
+adjectives = ["Beautiful", "Fancy", "Happy", "Imperial", "Quiet", "Rosy", "Spring", "Sunny", "Urban"]
+nouns = ["Beach", "Downs", "Gardens", "Hills", "Lake", "Mountains", "Sea"]
+suffixes = ["B&B", "Club", "Hotel", "Inn", "Resorts", "Spa", "Suites", "Tower"]
 
 
 def get_hotel_name(adjective=None, noun=None, suffix=None):
