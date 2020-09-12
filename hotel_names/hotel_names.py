@@ -1,8 +1,8 @@
 from random import choice
 
 
-adjectives = ["Beautiful", "Happy", "Imperial", "Sunny"]
-nouns = ["Beach", "Hills", "Lake", "Mountains"]
+adjectives = ["Beautiful", "Happy", "Imperial", "Quiet", "Sunny"]
+nouns = ["Beach", "Downs", "Hills", "Lake", "Mountains"]
 suffixes = ["Spa", "Hotel", "Resorts"]
 
 
