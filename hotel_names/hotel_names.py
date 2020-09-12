@@ -3,13 +3,17 @@ from random import choice
 
 adjectives = ["Beautiful", "Happy", "Imperial", "Sunny"]
 nouns = ["Beach", "Hills", "Lake", "Mountains"]
-suffixes = ["and Spa", "Hotel", "Resorts"]
+suffixes = ["Spa", "Hotel", "Resorts"]
 
 
-def get_hotel_name(suffix=True):
-    hotel_suffix = choice(suffixes) if suffix else ""
+def get_hotel_name(suffix=None):
+    hotel_suffix = suffix or choice(suffixes)
     return f"{choice(adjectives)} {choice(nouns)} {hotel_suffix}"
 
 
-if __name__ == '__main__':
+def main():
     print(get_hotel_name())
+
+
+if __name__ == '__main__':
+    main()
